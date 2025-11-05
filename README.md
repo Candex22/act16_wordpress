@@ -1,75 +1,14 @@
-📌 Proyecto: Registro y Listado de Usuarios en WordPress
+#Como correr el proyecto: 
 
-Este proyecto forma parte de la Actividad 16: Creación, Edición y Personalización de Sitio Web en WordPress de la materia Proyecto de Implementación de Sitios Web Dinámicos (EEST N.º 1 “Eduardo Ader”).
-
-El objetivo principal es crear, editar y personalizar un sitio en WordPress agregando una funcionalidad propia: un sistema de registro de usuarios mediante un formulario personalizado y el listado de usuarios en una base de datos externa (MySQL).
-
-Fue desarrollado localmente con XAMPP.
-
-✨ Características principales
-
-Formulario de registro con los siguientes campos:
-
-Nombre
-
-Género
-
-Edad
-
-Email
-
-Teléfono
-
-Validación y sanitización de los datos ingresados.
-
-Prevención de registros duplicados (por email).
-
-Listado de todos los usuarios registrados en una tabla ordenada.
-
-Conexión a base de datos externa (independiente de la de WordPress).
-
-Shortcodes para integrar el formulario y el listado en páginas de WordPress.
-
-Personalización de estilos y estructura con HTML + CSS.
-
-Integración dentro de un sitio WordPress editable con temas y plantillas.
-
-🎯 Objetivos de la Actividad
-
-Diferenciar entre temas y plantillas en WordPress.
-
-Crear, editar y publicar páginas y entradas con contenido multimedia.
-
-Usar el editor de bloques (Gutenberg) para diseñar páginas dinámicas.
-
-Optimizar el diseño aplicando estilos, tipografías y configuraciones.
-
-Redactar, formatear y organizar contenidos aplicando buenas prácticas digitales.
-
-Incorporar un desarrollo propio que complemente las funciones de WordPress (este proyecto).
-
-🛠️ Tecnologías utilizadas
-
-PHP (funciones personalizadas y validaciones).
-
-WordPress (hooks, shortcodes y administración de páginas).
-
-MySQL con XAMPP (base de datos externa).
-
-HTML + CSS (maquetación y estilos del formulario/listado).
-
-📌 Descripción de la Actividad
-
-El sitio web en WordPress se trabajó de la siguiente manera:
-
-Edición de contenido: páginas, entradas y elementos multimedia.
-
-Gestión de bloques: uso del editor Gutenberg para maquetar.
-
-Optimización del diseño: colores, tipografías y plantillas.
-
-Creación de un formulario propio para registro de usuarios.
-
-Conexión a base de datos externa para almacenar y listar registros.
-
-Inserción del formulario y listado mediante shortcodes.
+1. Descargar la ultima version de wordpress desde el sitio wordpress.org
+2. Descomprimir el zip dentro de la carpeta htdocs en XAMPP
+3. Sacar de dentro de la carpeta extraida la carpeta llamada 'wordpress' para dejarla directamente en el htdocs
+5. Dentro de la carpeta wordpress subir el archivo 'wp-config.php' que esta adjunto en este repositorio
+6. Entrar a 'C:\xampp\htdocs\wordpress\wp-content\themes' y poner alli la carpeta llamada 'twentytwenty-hijo' que se encuentra en este repositorio
+7. Activar el apache y mysql desde el panel de control de XAMPP
+8. Darle click al boton que dice admin de mysql
+9. Crear la base de datos con nombre 'wordpress'
+10. Entrar a 'https://localhost/wordpress/wp-admin/install'
+11. Completar el formulario, la pagina debe llamarse 'Game jam' el resto es indistinto. (Copia la contraseña)
+12. Ir al apartado de apariencia y activar el tema 'twentytwentyfive hijo'
+13. Editar la pagina Game jam, borra todo lo de dentro y poner un bloque editable html, alli pegar el html adjunto
